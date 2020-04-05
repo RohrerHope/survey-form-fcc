@@ -13,6 +13,11 @@ form > p {
   margin-top: 10px;
 }
 
+form > label,
+form > p {
+  font-weight: 800;
+}
+
 form > div {
   margin-top: -1rem;
 }

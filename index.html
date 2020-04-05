@@ -13,8 +13,8 @@
 
 <body>
 	<header>
-		<h1 id="title">Survey Form Title</h1>
-		<p id="description">A short explanation of the form</p>
+		<h1 id="title">How much do you know about Albert Einstein?</h1>
+		<p id="description">A simple survey form to define how much do you know about him.</p>
 	</header>
 	<main>
 		<form action="post" method="" id="survey-form">
@@ -45,6 +45,26 @@
 				<input type="radio" name="breakfast" id="fried-eggs">
 				<label for="fried-eggs">Fried Eggs</label>
 			</div>
+			<p>Which theories did Einstein develop?</p>
+			<div>
+				<input type="checkbox" id="special" name="special-relativity" value="special-relativity">
+				<label for="special">Theory of Special Relativity</label>
+			</div>
+			<div>
+				<input type="checkbox" id="general" name="general-relativity" value="general-relativity">
+				<label for="general">Theory of General Relativity</label>
+			</div>
+			<div>
+				<input type="checkbox" id="unified" name="unified-theory" value="unified-theory">
+				<label for="unified">Unified Field Theory</label>
+			</div>
+			<label for="comments">Any comments?</label>
+			<textarea id="comments" name="comments"
+          rows="5" cols="33">
+This is an amazing survey form...
+</textarea>
+			<label for="submit">Submit your survey:</label>
+			<input type="submit" value="Submit my survey" id="submit">
 		</form>
 	</main>
 	<footer>
