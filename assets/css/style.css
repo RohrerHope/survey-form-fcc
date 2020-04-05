@@ -8,6 +8,11 @@ body {
   max-width: 400px;
 }
 
-label {
+label,
+form > p {
   margin-top: 10px;
+}
+
+form > div {
+  margin-top: -1rem;
 }
