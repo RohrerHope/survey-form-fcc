@@ -1,0 +1,9 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
